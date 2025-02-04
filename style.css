@@ -47,7 +47,7 @@
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1px;
 }
 
 .input-box{
@@ -62,4 +62,18 @@
     outline: none;
     border-radius: 5px;
     word-wrap: break-word;
+}
+
+/* Media Querries for mobile screen */
+@media (max-width: 600px) {
+    .notescontainer{
+        margin-right: 50px;
+        margin-left: -50px;
+        width: 100%;
+    }
+
+
+    .container h1, .container button{
+        margin-left: -49px;
+    }
 }
